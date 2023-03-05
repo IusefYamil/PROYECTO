@@ -35,6 +35,7 @@
 .article--estadistica h2 {
   font-size: 40px;
   color: black;
+  text-align: center;
 }
 .article--estadistica img {
   height: 200px;
@@ -55,6 +56,7 @@
 .article--iconic h2 {
   font-size: 40px;
   color: white;
+  text-align: center;
 }
 .article--iconic img {
   height: 200px;
@@ -78,6 +80,7 @@
   font-family: "Oswald", sans-serif;
 }
 .article--novedad h2 {
+  text-align: center;
   justify-self: center;
   font-size: 40px;
   color: white;
@@ -179,6 +182,7 @@ aside {
   background-size: cover;
   background-position: center;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 .caja__stats .element {
   flex-direction: column;
@@ -250,6 +254,16 @@ aside {
   font-family: "Oswald", sans-serif;
 }
 .card .card-body .card-text {
+  font-family: "Oswald", sans-serif;
+}
+
+.section--iconic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(236, 85, 110);
   font-family: "Oswald", sans-serif;
 }
 
