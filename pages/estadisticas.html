@@ -17,14 +17,20 @@
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
 
   <body>
     <div class="container-fluid">
       <!--Aqui comienza el header-->
-      <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <header class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark col col-12">
           <div class="container-fluid">
             <div class="conteiner__logo">
               <a class="navbar-brand" href="../index.html"
@@ -74,19 +80,19 @@
             </div>
           </div>
         </nav>
-      </div>
+      </header>
 
       <!--Aqui comienza el main-->
 
-      <div class="row section__conteiner--stats">
+      <main class="row section__conteiner--stats">
         <div class="col col-sm-12 col-xl-11">
           <div class="row justify-content-center">
             <!--Conteiner-->
 
-            <div class="col col-8 align-self-center">
-              <div class="conteiner__titulo">
-                <h1 class="h1--estadisticas">ESTADISTICAS DE MESSI</h1>
-              </div>
+            <div class="col col-8 align-self-center">    
+
+                <h1>ESTADISTICAS DE MESSI</h1>
+
             </div>
             <!--col para titulo-->
 
@@ -94,33 +100,33 @@
               <!--col para las barras-->
 
               <div class="container-fluid caja__stats">
-                <div class="elemento">
-                  <div >
-                    <h2 class="stats__h2--TituloComparativo">Partidos:1011</h2>
+                <div class="element">
+                  <div class="h2__background--stats">
+                    <h2 class="stats__h2--TitleComparative">Partidos:1011</h2>
                   </div>
                  
-                  <div class="stats__barra">
-                    <div class="stats__progreso" style="--w: 100%"></div>
+                  <div class="stats__bar">
+                    <div class="stats__progress" style="--w: 100%"></div>
                   </div>
                 </div>
 
-                <div class="elemento">
-                  <div class="h2__fondo--stats">
-                    <h2 class="stats__h2--TituloComparativo">Goles:797</h2>
+                <div class="element">
+                 <div class="h2__background--stats">
+                    <h2 class="stats__h2--TitleComparative">Goles:797</h2>
                   </div>
                   
-                  <div class="stats__barra">
-                    <div class="stats__progreso" style="--w: 79%"></div>
+                  <div class="stats__bar">
+                    <div class="stats__progress" style="--w: 79%"></div>
                   </div>
                 </div>
 
-                <div class="elemento">
-                  <div class="h2__fondo--stats">
-                    <h2 class="stats__h2--TituloComparativo">Asistencias:350</h2>
+                <div class="element">
+                  <div class="h2__background--stats">
+                    <h2 class="stats__h2--TitleComparative">Asistencias:350</h2>
                   </div>
                   
-                  <div class="stats__barra">
-                    <div class="stats__progreso" style="--w: 35%"></div>
+                  <div class="stats__bar">
+                    <div class="stats__progress" style="--w: 35%"></div>
                   </div>
                 </div>
               </div>
@@ -133,12 +139,12 @@
         <!--fin col 12-->
 
         <!--Aqui comienza el aside-->
-        <div class="col col-xl-1 col-xxl-1 aside__conteiner">
+        <aside class="col col-xl-1 col-xxl-1">
           <h2>Messi es el mejor por eso te trae las mejores ofertas</h2>
-        </div>
-      </div>
+        </aside>
+      </main>
 
-      <div class="row">
+      <footer class="row">
         <div class="footer__conteiner--sitio col-xs-12 col-lg-4">
           <div class="footer__conteiner--logo">
             <a href="../index.html"><img src="../img/low.png" alt="" /></a>
@@ -146,54 +152,49 @@
         </div>
 
         <div class="footer__conteiner--sponsor col-xs-12 col-lg-4">
-          <div class="footer__titulo--sponsor">
-            <h2>SPONSORS</h2>
-          </div>
+          
           <div class="footer__logos--sponsor">
-            <ul class="footer__ul">
-              <li class="footer__ul__li">
-                <a class="ul__li__a--sponsor" href="https://lays.es/">Lays</a>
+            <ul>
+              <li>
+                <a href="https://lays.es/" target="_blank">Lays</a>
               </li>
               <li>
-                <a class="ul__li__a--sponsor" href="https://www.adidas.com.ar/"
+                <a  href="https://www.adidas.com.ar/" target="_blank"
                   >Adidas</a
                 >
               </li>
               <li>
-                <a class="ul__li__a--sponsor" href="https://www.pepsi.com/"
+                <a href="https://www.pepsi.com/" target="_blank"
                   >Pepsi</a
                 >
               </li>
+              
             </ul>
           </div>
         </div>
 
         <div class="footer__conteiner--redes col-xs-12 col-lg-4">
-          <div class="footer__titulo--redes">
-            <h2>REDES</h2>
-          </div>
-
-          <div class="footer__logos--redes container-fluid">
-            <a href="https://www.instagram.com/leomessi/"
-              ><img class="img__logo--redes" src="../img/insta.png" alt=""
-            /></a>
-
-            <a href="https://www.facebook.com/leomessi"
+            <ul>
+              <li> <a href="https://www.instagram.com/leomessi/"
+                ><img class="img__logo--redes" src="../img/insta.png" alt="Logo--instagram"target="_blank"
+              />
+            Instagram</a></li>
+            <li><a href="https://www.facebook.com/leomessi"
               ><img
                 class="img__logo--redes"
                 src="../img/facebook-circle-logo-24.png"
-                alt=""
-            /></a>
-
-            <a href="https://www.youtube.com/@LeoMessi"
+                alt="Logo--facebook"
+            /> Facebook</a></li>
+            <li><a href="https://www.youtube.com/@LeoMessi"
               ><img
                 class="img__logo--redes"
                 src="../img/youtube-logo-24.png"
-                alt=""
-            /></a>
-          </div>
-        </div>
-      </div>
+                alt="Logo--youtube"
+            />You tube</a></li>
+            </ul>
+
+         </div>
+      </footer>
     </div>
 
     <script
