@@ -267,6 +267,58 @@ aside {
   font-family: "Oswald", sans-serif;
 }
 
+#carousel {
+  display: none;
+  justify-content: center;
+}
+#carousel .carousel-inner {
+  width: 100vw;
+}
+#carousel .carousel-item {
+  height: 500px;
+}
+#carousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+#carousel .carousel__h5--oscuro {
+  color: black;
+}
+#carousel .carousel__p--oscuro {
+  color: black;
+}
+#carousel .carousel-control-prev-icon {
+  color: black;
+}
+#carousel .carousel__fondo--texto {
+  border-radius: 20px;
+  background-color: aqua;
+}
+
+.contacto__background {
+  background-color: gold;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Oswald", sans-serif;
+}
+.contacto__background h1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.palmares__conteiner {
+  background-color: gold;
+  font-family: "Oswald", sans-serif;
+}
+.palmares__conteiner section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /*PC*/
 
 /*# sourceMappingURL=style.css.map */

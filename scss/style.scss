@@ -284,4 +284,58 @@ aside{
     font-family: $font-global;      
          
 }
+
+#carousel{
+    display: none;
+    justify-content: center;
+    .carousel-inner{
+        width: 100vw;
+     }
+     .carousel-item {
+         height: 500px;
+         img{
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+         }
+     }
+    
+     .carousel__h5--oscuro{
+         color: black;
+     }
+     .carousel__p--oscuro{
+         color: black;
+     }
+     .carousel-control-prev-icon{
+         color: black;
+     }
+     .carousel__fondo--texto{
+         border-radius: 20px;
+         background-color: aqua;
+     }
+
+   }
+    
+   .contacto__background{
+    background-color: gold;
+    height: 100vh;
+    width: 100vw;
+    font-family: $font-global;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            font-family: $font-global;
+        }
+   }
+   .palmares__conteiner{
+    background-color: gold;
+    font-family: $font-global;
+    
+            section{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+            }
+   }
 /*PC*/
